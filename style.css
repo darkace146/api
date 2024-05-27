@@ -1,0 +1,70 @@
+body {
+    background-color: #f0e6f6; /* Light purple background */
+    font-family: Arial, sans-serif;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4b0082; /* Indigo color */
+    font-weight: bold; /* Bold font */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.main {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(75, 0, 130, 0.1); /* Shadow with purple tint */
+    background-color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-group-text {
+    background-color: #8a2be2; /* Blue violet */
+    color: white;
+    border: none;
+}
+
+.form-control {
+    border: 1px solid #8a2be2;
+}
+
+.convert, .btn-secondary {
+    margin-top: 20px;
+    background-color: #8a2be2;
+    border: none;
+    color: white;
+}
+
+.convert:hover, .btn-secondary:hover {
+    background-color: #4b0082; /* Indigo */
+}
+
+.swap-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #8a2be2;
+    border: none;
+    color: white;
+}
+
+.swap-button:hover {
+    background-color: #4b0082; /* Indigo */
+}
+
+.finalValue {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #4b0082; /* Indigo */
+}
+
+.output {
+    text-align: center;
+}
